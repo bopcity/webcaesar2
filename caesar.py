@@ -34,6 +34,6 @@ def rotate_string(text, rot):
         if (char.isalpha()):
             rotated = rotated + rotate_character(char, rot)
         else:
-            rotate_string = rotated + char
+            rotated= rotated + char
 
-    return rotate_string
+    return rotated
